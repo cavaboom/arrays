@@ -31,5 +31,26 @@ public class Main {
             }
         }
         System.out.println();
+        System.out.println("Задание 3");
+        for (int i = array1.length - 1; i >= 0; i--) {
+            System.out.print(array1[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        for (int i = array2.length - 1; i >= 0; i--) {
+            System.out.print(array2[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        for (int i = array3.length - 1; i >= 0; i--) {
+            System.out.print(array3[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
     }
 }
