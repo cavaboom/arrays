@@ -52,5 +52,13 @@ public class Main {
                 System.out.print(", ");
             }
         }
+        System.out.println();
+        System.out.println("Задание 4");
+        for (int i = 0; i < array1.length; i++) {
+            if (array1[i] % 2 != 0) {
+                array1[i] += 1;
+            }
+            System.out.println(array1[i]);
+        }
     }
 }
